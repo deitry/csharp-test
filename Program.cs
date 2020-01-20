@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace quiz2
+﻿namespace quiz
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Run2_8();
         }
     }
 }

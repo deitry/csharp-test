@@ -7,9 +7,10 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/quiz2.csproj",
+                "${workspaceFolder}/quiz.csproj",
                 "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "/consoleloggerparameters:NoSummary",
+                // "/unsafe",
             ],
             "problemMatcher": "$msCompile"
         },
@@ -19,7 +20,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/quiz2.csproj",
+                "${workspaceFolder}/quiz.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +33,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/quiz2.csproj",
+                "${workspaceFolder}/quiz.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
